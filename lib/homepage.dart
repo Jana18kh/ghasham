@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:ghasham/main.dart';
 
-void main(){
-  runApp(const MyApp());
+void main() {
+  runApp(const Homepage());
 }
+
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-
-        ),
-        ),
-    );
+        home: Scaffold(
+      appBar: AppBar(title: const Text("")),
+      body: const Text("data"),
+    ));
   }
 }
