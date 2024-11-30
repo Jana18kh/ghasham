@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ghasham/main.dart';
 
 void main(){
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
