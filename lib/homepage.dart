@@ -1,9 +1,9 @@
-import 'dart:ui';
+//import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
+//import 'package:flutter/painting.dart';
+//import 'package:flutter/rendering.dart';
+//import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(const Homepage());
@@ -21,13 +21,13 @@ class Homepage extends StatelessWidget {
                 appBar: AppBar(
                   title: const Text("أهلًا جنى"),
                   toolbarHeight: 60,
-                  shadowColor: Color.fromARGB(255, 0, 0, 0),
+                  shadowColor: const Color.fromARGB(255, 0, 0, 0),
                   elevation:0.9,
-                  backgroundColor: Color(0xffF5F5F5),
+                  backgroundColor: const Color(0xffF5F5F5),
                 ),
                 body: Container(
-                  color: Color(0xffF5F5F5),
-                    padding: EdgeInsets.only(left: 30, right: 30, top: 20),
+                  color: const Color(0xffF5F5F5),
+                    padding: const EdgeInsets.only(left: 30, right: 30, top: 20),
                     child: SingleChildScrollView(
                       child: Column(
                         children: [
@@ -37,15 +37,15 @@ class Homepage extends StatelessWidget {
                               children: [
                                 Container(
                                   decoration: BoxDecoration(
-                                      color: Color(0xffD9D9D9),
+                                      color: const Color(0xffD9D9D9),
                                       borderRadius: BorderRadius.circular(20)),
                                   height: 220,
                                   width: 330,
-                                  margin: EdgeInsets.only(left: 30),
+                                  margin: const EdgeInsets.only(left: 30),
                                 ),
                                 Container(
                                   decoration: BoxDecoration(
-                                      color: Color(0xffD9D9D9),
+                                      color: const Color(0xffD9D9D9),
                                       borderRadius: BorderRadius.circular(20)),
                                   height: 220,
                                   width: 330,
@@ -56,8 +56,8 @@ class Homepage extends StatelessWidget {
                           Container(
                             alignment: Alignment.centerRight,
                             margin:
-                                EdgeInsets.only(top: 40, bottom: 20, right: 10),
-                            child: Text(
+                                const EdgeInsets.only(top: 40, bottom: 20, right: 10),
+                            child: const Text(
                               'المواد:',
                               style: TextStyle(fontSize: 25),
                             ),
@@ -67,15 +67,15 @@ class Homepage extends StatelessWidget {
                             children: [
                               Container(
                                 decoration: BoxDecoration(
-                                    color: Color(0xffD9D9D9),
+                                    color: const Color(0xffD9D9D9),
                                     borderRadius: BorderRadius.circular(20)),
                                 height: 130,
                                 width: 155,
-                                margin: EdgeInsets.only(left: 20),
+                                margin: const EdgeInsets.only(left: 20),
                               ),
                               Container(
                                 decoration: BoxDecoration(
-                                    color: Color(0xffD9D9D9),
+                                    color: const Color(0xffD9D9D9),
                                     borderRadius: BorderRadius.circular(20)),
                                 height: 130,
                                 width: 155,
@@ -90,15 +90,15 @@ class Homepage extends StatelessWidget {
                             children: [
                               Container(
                                 decoration: BoxDecoration(
-                                    color: Color(0xffD9D9D9),
+                                    color: const Color(0xffD9D9D9),
                                     borderRadius: BorderRadius.circular(20)),
                                 height: 130,
                                 width: 155,
-                                margin: EdgeInsets.only(left: 20),
+                                margin: const EdgeInsets.only(left: 20),
                               ),
                               Container(
                                 decoration: BoxDecoration(
-                                    color: Color(0xffD9D9D9),
+                                    color: const Color(0xffD9D9D9),
                                     borderRadius: BorderRadius.circular(20)),
                                 height: 130,
                                 width: 155,
